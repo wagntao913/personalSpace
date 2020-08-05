@@ -21,6 +21,9 @@ Vue.use(VueRouter)
         component: () => import('@/views/user/usersList.vue')
       }
     ]
+  },{
+    path: '/login',
+    component: () => import('@/views/Login.vue')
   }
 ]
 
